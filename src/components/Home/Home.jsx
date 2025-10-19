@@ -9,6 +9,8 @@ import carosal2 from '../../assets/carosal2.jpg';
 import carosal3 from '../../assets/carosal3.jpg';
 
 const Home = () => {
+
+  
   return (
     <div className='nav'>
       <div className="navbar">
