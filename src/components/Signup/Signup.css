@@ -1,0 +1,75 @@
+
+.container {
+    width:330px;
+    border-radius: 10px;
+    background:  rgb(244, 240, 240);
+    margin-top: 150px;
+    padding-left: 15px;
+     padding-right: 15px;
+}
+.header{
+    padding:10px;
+    padding-top:20px;
+    text-align: center;
+    color: rgb(2, 152, 10);
+}
+.header h2{
+    font-size:30px;
+    font-weight: 700;
+}
+
+
+.inputs input{
+    width:100%;
+    padding: 12px;
+    background: rgb(229, 226, 226);
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.inputs input:hover{
+    background: rgb(239, 236, 236);
+}
+
+.forget-password{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.forget-password a{
+    text-decoration: none;
+    color: rgb(2, 152, 10);
+}
+.forget-password a:hover{
+    color: rgb(2, 136, 9)
+}
+.submit-container{
+    padding-bottom: 10px;
+}
+.submit{
+    padding-bottom: 5px;
+}
+.submit button{
+    width: 100%;
+    padding: 10px;
+    background: rgb(2, 152, 10);
+    color: #fff;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+.submit button:hover{
+    background: rgb(2, 136, 9);
+}
+.submit-container p{
+    text-align: center;
+}
+.submit-container a{
+    text-decoration: none;
+    color: rgb(2, 152, 10);
+}
+.submit-container a:hover{
+    color: rgb(2, 136, 9);
+}

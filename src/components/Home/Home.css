@@ -1,0 +1,133 @@
+/* === General Page Styling === */
+.nav {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+/* === Navbar Section === */
+.navbar {
+  background-color: black;  /* Bootstrap blue */
+  color: #fff;
+  padding: 15px 40px;
+  width: 100%;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+
+}
+
+
+.loginicon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+
+.caros {
+  width: 100%;
+
+}
+
+.caros img {
+  width: 100%;
+  height: 660px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+.caros img:hover{
+    filter: brightness(60%);
+}
+.aboutus h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.aboutus p{
+    padding: 10px;
+    text-align: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, 200%);
+  text-align: center;
+  color: #fff;
+  z-index: 10;
+}
+
+.carousel-overlay h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.apply-btn {
+  background-color: #00b4d8;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.3s ;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.apply-btn:hover {
+  background-color: #0077b6;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* === Footer Section === */
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.footer h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #00b4d8;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.footer a {
+  color: #00b4d8;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer .copyright {
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: 0.8;
+}
