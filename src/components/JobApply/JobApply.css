@@ -1,0 +1,11 @@
+.conta{
+    display: flex;
+    flex-direction: column;
+    background: rgb(241, 241, 239);
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-radius: 10px;
+}
